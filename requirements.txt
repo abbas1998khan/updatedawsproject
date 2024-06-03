@@ -1,5 +1,5 @@
-mysqlclient
-python3
-flask
-pymysql
-boto3
+mysql-client==8.0.19
+python3==3.8.5
+flask==1.1.2
+pymysql==1.1.1
+boto3==1.34.117
