@@ -19,8 +19,8 @@ phases:
       #- cd updatedawsproject
       - echo "Building Docker image..."
       - echo "$DOCKER_REGISTRY_PASSWORD" | docker login -u "$DOCKER_REGISTRY_USERNAME" --password-stdin "$DOCKER_REGISTRY_URL"
-      - docker build -t "abbas1998khan/updatedawsproject:latest"
-      - docker push "abbas1998khan/updatedawsproject:latest"
+      - docker build -t "abbas1998khan:latest"
+      - docker push "abbas1998khan:latest"
   post_build:
     commands:
       - echo "Build completed successfully!"
