@@ -5,9 +5,5 @@ set -e
 sudo docker pull abbas1998khan/sample-python-project
 
 # Run the Docker image as a container
-sudo docker run -d -p 5000:5000 samle-python-project
-
-
-
-
+sudo docker run -t -p 5000:5000 abbas1998khan/sample-python-project
 
