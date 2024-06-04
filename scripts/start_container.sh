@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-sudo docker pull abbas1998khan/sample-python-project
+docker pull abbas1998khan/sample-python-project:latest
 
 # Run the Docker image as a container
 sudo docker run -t -p 5000:5000 abbas1998khan/sample-python-project
