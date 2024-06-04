@@ -8,3 +8,4 @@ docker pull abbas1998khan/updatedawsproject
 docker run -d -p 5000:5000 abbas1998khan/updatedawsproject
 
 
+
