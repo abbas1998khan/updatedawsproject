@@ -1,5 +1,8 @@
 version: 0.0
 os: linux
+files:
+   -source: /EmpApp.py
+    destination: /abbas1998khan/updatedawsproject
 
 hooks:
   ApplicationStop:
