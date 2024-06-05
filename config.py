@@ -1,6 +1,0 @@
-customhost = "mats-university-database.cfcks06ged9s.ap-south-1.rds.amazonaws.com"
-customuser = "mats"
-custompass = "matsuniversity"
-customdb = "employee"
-custombucket = "matsemployee"
-customregion = "ap-south-1"
