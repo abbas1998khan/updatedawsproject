@@ -1,5 +1,8 @@
 version: 0.0
 os: linux
+files:
+  - source: /app.py
+    destination: /var/www/html/
 
 hooks:
   ApplicationStop:
