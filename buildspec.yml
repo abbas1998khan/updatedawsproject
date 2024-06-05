@@ -27,6 +27,6 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: ../updatedawsproject
+  #base-directory: ../updatedawsproject
   
 
