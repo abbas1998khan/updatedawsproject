@@ -20,4 +20,4 @@ EXPOSE 5000
 # ENV MY_ENV_VAR=value
 
 # Run the Flask application
-CMD ["EmpApp.py"]
+CMD ["python3", "EmpApp.py"]
