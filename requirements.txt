@@ -1,4 +1,1 @@
-mysql-client
 flask
-pymysql
-boto3
