@@ -1,1 +1,1 @@
-suso service nginix start
+sudo service nginix start
