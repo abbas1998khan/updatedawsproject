@@ -1,5 +1,4 @@
-#!/bin/bash
-set -e
-
-# Stop the running container (if any)
-echo "Hi"
+isExistApp = `pgrep apache2`
+if [[ -n  $isExistApp ]]; then
+    service apache2 stop        
+fi
