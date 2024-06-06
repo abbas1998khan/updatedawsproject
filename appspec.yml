@@ -1,9 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /app.py
-    destination: /var/www/app.py
-
+ 
 hooks:
   ApplicationStop:
     - location: scripts/stop_container.sh
