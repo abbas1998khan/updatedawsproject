@@ -1,2 +1,2 @@
-sudo systemctl start nginx
+ sudo service nginx start
 
